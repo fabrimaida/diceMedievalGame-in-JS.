@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: brown;
+}
+.dice-box {
+
+}
+.wrapper {
+  position: relative;
+  background-image: url(../img/Dice-Players.jpg);
+  height: 1000px;
+  width: 90%;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+
+.board {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; */
+}
+.hidden {
+  display: none;
+}
+
+.box1 {
+  /* width: 200px;
+  height: 200px;
+  /* background-color: rgba(222, 0, 0, 0.5); */
+  /* background-color: red; */ */
+}
+
+.box2 {
+  /* width: 200px;
+  height: 200px;
+  /* background-color: rgba(111, 0, 0, 0.5); */
+  /* background-color: green; */ */
+}
+
+.dice-1 {
+  /* background-color: red; */
+  margin: 100px 0;
+}
+
+h1 {
+  color: white;
+}
+
+.slot1 {
+  background-color: rgba(0,0,0,0.5);
+  height: 100px;
+  width: 100px;
+  font-size: 90px;
+  color: white;
+}
+.slot2 {
+  background-color: rgba(0,0,0,0.5);
+  height: 100px;
+  width: 100px;
+  font-size: 90px;
+  color: white;
+
+}
+
+.generator {
+  height: 100px;
+  width: 100%;
+  margin-top: -500px;
+}
+.gioca {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 37px;
+  bottom: -80px;
+}
+.gioca:hover {
+  cursor: pointer;
+}
+
+.imgdice1 {
+  background-image: url(../img/dice1.png);
+  background-size: cover;
+}
+.imgdice2 {
+  background-image: url(../img/dice2.png);
+  background-size: cover;
+}
+.imgdice3 {
+  background-image: url(../img/dice3.png);
+  background-size: cover;
+}
+.imgdice4 {
+  background-image: url(../img/dice4.png);
+  background-size: cover;
+}
+.imgdice5 {
+  background-image: url(../img/dice5.png);
+  background-size: cover;
+}
+.imgdice6 {
+  background-image: url(../img/dice6.png);
+  background-size: cover;
+}
